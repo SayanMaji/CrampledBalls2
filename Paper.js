@@ -18,7 +18,7 @@ class Paper{
         translate(pos.x,pos.y);
         ellipseMode(CENTER);
         
-        ellipse(0,0,this.radius,this.radius)
+        //ellipse(0,0,this.radius,this.radius)
         imageMode(CENTER);
         image(this.image,0,0,this.width,this.height);
        

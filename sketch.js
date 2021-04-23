@@ -31,9 +31,10 @@ function setup() {
 
 
 function draw() {
+	background("white");
 	Engine.update(engine);
   rectMode(CENTER);
-  background(0);
+ // background(0);
   ground.display();
   bin.display();
   paper1.display();
